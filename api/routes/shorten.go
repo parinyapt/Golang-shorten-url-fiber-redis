@@ -10,6 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/parinyapt/Golang-shorten-url/database"
 	"github.com/parinyapt/Golang-shorten-url/helpers"
+	"github.com/asaskevich/govalidator"
 )
 
 type request struct {
